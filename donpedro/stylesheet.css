@@ -1,0 +1,232 @@
+/*Font importerat ifrån googlefonts */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
+/**/
+* {
+    box-sizing: border-box;
+    font-family: Catamaran;
+    color: rgb(51, 44, 44);
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Tar bort marginalen upptill*/
+.nav ul {
+    margin: 0;
+}
+
+/*sätter menyknapparna på rad*/
+.nav li {
+    display: inline;
+    color: whitesmoke;
+}
+
+ul {
+    margin: 0;
+}
+
+/*Tar bort understrukning, ger knapparna padding och färg*/
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: whitesmoke;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+/*Flyttar a-länkar till valfri position*/
+.navhead {
+    text-align: left;
+}
+
+.nav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/*centrerar texten, gör den större och fetare*/
+.mainHeader {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.mainHeader li {
+    padding: 0 1%;
+}
+
+/* mörkar header-bilden och får dne att täcka hela sidan*/
+.mainHeader {
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url("img/pizzahead.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+
+}
+
+.planka-img {
+    float: left;
+}
+
+/*Don Pedro färg och size*/
+.donPedro {
+    font-size: 5em;
+    color: whitesmoke;
+}
+
+/*Centreering, storlek och marginal*/
+.oppetT {
+    text-align: center;
+    font-size: large;
+    margin: 1em;
+}
+
+.container {
+    max-width: 900;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+/*Färg, shading, padding och fontsize*/
+.navfooter {
+    background-color: rgba(0, 0, 0, 0.836);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.huvudFooter {
+    background-color: rgba(0, 0, 0, 0.884);
+    color: whitesmoke;
+    padding: .25 0;
+}
+
+.donPedroFooter {
+    font-size: larger;
+    color: whitesmoke;
+    float: left;
+    width: max-content min-content;
+    margin: 15 px;
+}
+
+.huvud-Footer-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.huvud-Footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.nav-footerNav li {
+    padding: 0 .5em;
+    text-align: left;
+
+}
+
+.nav-footerNav img {
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    padding: 0.5em;
+}
+
+/*Centrerar texten i li men inte ol*/
+.menyn {
+    text-align: center;
+    padding: .25 0;
+}
+
+/*centrerar ol genom att flytta siffrorna till vänster*/
+
+
+.menyn ol {
+    display: inline-block;
+    text-align: left;
+
+}
+
+.oststro {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 30px;
+    border-radius: 50%;
+    animation: movement 5s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes movement {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 300px
+    }
+}
+.pizza2 {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 30px;
+    border-radius: 50%;
+
+}
+.kebab {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 30px;
+    border-radius: 50%;
+
+}
+.planka {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 30px;
+    border-radius: 50%;
+
+}
+.extraLi {
+    color: black;
+    text-align: center;
+}
+
+.liExtra li {
+    padding: .5em;
+    list-style-type: none;
+}
+
+.box1 {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+.headOss {
+    text-align: center;
+    padding: 45px;
+}
+
+.presentation {
+    text-align: center;
+    padding: 10px 350px 25px 350px;
+}
+
+.kontakt {
+    text-align: center;
+    padding: 45px;
+}
